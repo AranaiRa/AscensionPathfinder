@@ -1,4 +1,4 @@
-package com.aranaira.handyshapes;
+package com.aranaira.ascpath;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;

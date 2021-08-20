@@ -1,5 +1,6 @@
 package com.aranaira.ascpath;
 
+import com.aranaira.ascpath.common.item.ModItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -16,6 +17,8 @@ public class AscensionPathfinder {
   public static ItemGroup itemGroup;
 
   public AscensionPathfinder() {
-    IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
+    IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+    ModItems.register(modEventBus);
   }
 }

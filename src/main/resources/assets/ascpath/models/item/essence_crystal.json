@@ -1,0 +1,8 @@
+{
+  "parent" : "item/generated",
+  "textures" : {
+    "layer0" : "ascpath:item/essences/ring_bg",
+    "layer1" : "ascpath:item/essences/essence_crystal",
+    "layer2" : "ascpath:item/essences/ring_fg"
+  }
+}

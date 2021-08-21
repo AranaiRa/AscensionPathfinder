@@ -19,15 +19,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("ascpath")
+@Mod(AscensionPathfinder.MODID)
 public class AscensionPathfinder {
   public static final Logger LOG = LogManager.getLogger();
   public static final String MODID = "ascpath";
   public static final String VERSION = "GRADLE:VERSION";
 
   public static ItemGroup itemGroup;
-
-  private static final Logger LOGGER = LogManager.getLogger();
 
   public AscensionPathfinder() {
     IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -49,8 +47,8 @@ public class AscensionPathfinder {
   private void setup(final FMLCommonSetupEvent event)
   {
     // some preinit code
-    LOGGER.info("HELLO FROM PREINIT");
-    LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+    LOG.info("HELLO FROM PREINIT");
+    LOG.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
   }
 
   private void doClientStuff(final FMLClientSetupEvent event) {
@@ -60,7 +58,7 @@ public class AscensionPathfinder {
   private void enqueueIMC(final InterModEnqueueEvent event)
   {
     // some example code to dispatch IMC to another mod
-    InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+    InterModComms.sendTo("examplemod", "helloworld", () -> { LOG.info("Hello world from the MDK"); return "Hello world";});
   }
 
   private void processIMC(final InterModProcessEvent event)
@@ -72,7 +70,7 @@ public class AscensionPathfinder {
   @SubscribeEvent
   public void onServerStarting(FMLServerStartingEvent event) {
     // do something when the server starts
-    LOGGER.info("HELLO from server starting");
+    LOG.info("HELLO from server starting");
   }
 
   // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
@@ -82,7 +80,7 @@ public class AscensionPathfinder {
     @SubscribeEvent
     public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent) {
       // register a new block here
-      LOGGER.info("HELLO from Register Block");
+      LOG.info("HELLO from Register Block");
     }
   }
 }

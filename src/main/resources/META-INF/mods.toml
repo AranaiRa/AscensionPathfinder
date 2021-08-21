@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+issueTrackerURL="https://github.com/aranaira/AscensionPathfinder/issues"
+license="https://github.com/noobanidus/lootr/blob/1.16/LICENSE"
+[[mods]]
+modId="ascpath"
+version="${version}"
+displayName="Ascension Pathfinder"
+displayURL="https://minecraft.curseforge.com/projects/AscensionPathfinder"
+authors="Noobanidus, AranaiRa"
+description='''
+Companion mod for the Path to Ascension modpack
+'''
+[[dependencies.ascpath]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="SERVER"
+[[dependencies.ascpath]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="SERVER"

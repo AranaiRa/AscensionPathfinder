@@ -1,4 +1,4 @@
-package com.aranaira.ascpath.common.block.properties;
+package com.aranaira.ascpath.core.block.properties;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

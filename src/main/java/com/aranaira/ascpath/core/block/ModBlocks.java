@@ -1,11 +1,8 @@
-package com.aranaira.ascpath.common.block;
+package com.aranaira.ascpath.core.block;
 
 import com.aranaira.ascpath.AscensionPathfinder;
-import com.aranaira.ascpath.common.item.ModItems;
-import net.minecraft.block.AbstractBlock;
+import com.aranaira.ascpath.core.item.ModItems;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,9 +10,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import java.rmi.registry.Registry;
 import java.util.function.Supplier;
-import java.util.function.ToIntFunction;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AscensionPathfinder.MODID);

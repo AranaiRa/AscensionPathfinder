@@ -1,7 +1,7 @@
 package com.aranaira.ascpath;
 
-import com.aranaira.ascpath.common.block.ModBlocks;
-import com.aranaira.ascpath.common.item.ModItems;
+import com.aranaira.ascpath.core.block.ModBlocks;
+import com.aranaira.ascpath.core.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;

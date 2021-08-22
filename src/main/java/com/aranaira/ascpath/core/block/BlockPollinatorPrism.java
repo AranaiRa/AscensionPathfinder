@@ -1,6 +1,6 @@
-package com.aranaira.ascpath.common.block;
+package com.aranaira.ascpath.core.block;
 
-import com.aranaira.ascpath.common.block.properties.DefaultProperties;
+import com.aranaira.ascpath.core.block.properties.DefaultProperties;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.IWaterLoggable;

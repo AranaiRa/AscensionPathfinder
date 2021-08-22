@@ -12,6 +12,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, AscensionPathfinder.MODID);
 
+    public static final RegistryObject<Item> KNOWLEDGE_FRAGMENT = ITEMS.register("knowledge_fragment",
+            () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));
+
     public static final RegistryObject<Item> ESSENCE_FLESH = ITEMS.register("essence_flesh",
             () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));
 

@@ -1,5 +1,6 @@
 package com.aranaira.ascpath;
 
+import com.aranaira.ascpath.common.block.ModBlocks;
 import com.aranaira.ascpath.common.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -25,12 +26,13 @@ public class AscensionPathfinder {
   public static final String MODID = "ascpath";
   public static final String VERSION = "GRADLE:VERSION";
 
-  public static ItemGroup itemGroup;
+  public static ItemGroup ITEMGROUP = ItemGroup.BREWING;
 
   public AscensionPathfinder() {
     IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
     ModItems.register(modEventBus);
+    ModBlocks.register(modEventBus);
 
     modEventBus.addListener(this::setup);
     // Register the enqueueIMC method for modloading

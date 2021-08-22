@@ -7,5 +7,15 @@
   "item.ascpath.essence_fluid" : "Fluid Essence",
   "item.ascpath.essence_light" : "Light Essence",
   "item.ascpath.essence_metal" : "Metal Essence",
-  "item.ascpath.essence_wood" : "Wood Essence"
+  "item.ascpath.essence_wood" : "Wood Essence",
+
+  "block.ascpath.prism_bloom" : "Pollinator Prism (Bloom)",
+  "block.ascpath.prism_crystal" : "Pollinator Prism (Crystal)",
+  "block.ascpath.prism_dust" : "Pollinator Prism (Dust)",
+  "block.ascpath.prism_earth" : "Pollinator Prism (Earth)",
+  "block.ascpath.prism_flesh" : "Pollinator Prism (Flesh)",
+  "block.ascpath.prism_fluid" : "Pollinator Prism (Fluid)",
+  "block.ascpath.prism_light" : "Pollinator Prism (Light)",
+  "block.ascpath.prism_metal" : "Pollinator Prism (Metal)",
+  "block.ascpath.prism_wood" : "Pollinator Prism (Wood)"
 }

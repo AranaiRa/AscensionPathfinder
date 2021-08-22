@@ -1,0 +1,5 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl MAIN
+map_Kd ascpath:block/pollinators/fundamental_dust

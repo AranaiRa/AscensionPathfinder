@@ -1,0 +1,46 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "ascpath:models/block/obj/prism_earth.obj",
+  "diffuseLighting": true,
+  "flip-v": true,
+  "ambientToFullbright": false,
+  "textures": {
+    "particle": "astralsorcery:block/wood_engraved"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [94, -180, 0],
+      "translation": [0, 0.25, -0.5],
+      "scale": [0.25, 0.25, 0.25]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [94, -180, 0],
+      "translation": [0, 0.25, -0.5],
+      "scale": [0.25, 0.25, 0.25]
+    },
+    "firstperson_righthand": {
+      "rotation": [-6, -180, 0],
+      "translation": [0, 0.25, -0.5],
+      "scale": [0.25, 0.25, 0.25]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-6, -180, 0],
+      "translation": [0, 0.25, -0.5],
+      "scale": [0.25, 0.25, 0.25]
+    },
+    "ground": {
+      "rotation": [0, -180, 0],
+      "translation": [0.0, 2.5, 0.0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "gui": {
+      "rotation": [20, 143, -3],
+      "translation": [0.0, 3.0, 0.0],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "fixed": {
+      "rotation": [-90, 0, 0]
+    }
+  }
+}

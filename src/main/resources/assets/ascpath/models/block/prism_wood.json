@@ -1,0 +1,5 @@
+{
+  "loader": "forge:obj",
+  "model": "ascpath:models/block/obj/prism_wood.obj",
+  "flip-v": "true"
+}

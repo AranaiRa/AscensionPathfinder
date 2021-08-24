@@ -10,11 +10,11 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
-public class LibeerianRenderer extends MobRenderer<LibeerianEntity, LibeerianModel<LibeerianEntity>> {
+public class LibeerianRenderer extends MobRenderer<LibeerianEntity, LibeerianModel> {
     public static final ResourceLocation LIBEERIAN = new ResourceLocation(AscensionPathfinder.MODID, "textures/entity/libeerian.png");
 
     public LibeerianRenderer(EntityRendererManager p_i226033_1_) {
-        super(p_i226033_1_, new LibeerianModel<>(), 0.4F);
+        super(p_i226033_1_, new LibeerianModel(), 0.4F);
         //this.addLayer(new BeeHeldItemLayer<>(this));
     }
 

@@ -1,6 +1,7 @@
 package com.aranaira.ascpath.core.setup;
 
 import com.aranaira.ascpath.AscensionPathfinder;
+import com.aranaira.ascpath.core.entity.LibeerianEntity;
 import com.aranaira.ascpath.core.entity.ModEntities;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
@@ -23,7 +24,7 @@ public class CommonSetup {
 
     @SubscribeEvent
     public static void onAttribute(EntityAttributeCreationEvent event) {
-        AttributeModifierMap.MutableAttribute attr = AppleBeeEntity.createAttributes();
+        AttributeModifierMap.MutableAttribute attr = LibeerianEntity.createAttributes();
         event.put(ModEntities.LIBEERIAN.get(), attr.create());
     }
 }

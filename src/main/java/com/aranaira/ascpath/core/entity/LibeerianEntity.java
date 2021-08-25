@@ -2,6 +2,10 @@ package com.aranaira.ascpath.core.entity;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.ai.attributes.Attribute;
+import net.minecraft.entity.ai.attributes.AttributeModifierMap;
+import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.goal.Goal;
 import net.minecraft.world.World;
 import noobanidus.mods.carrierbees.entities.AppleBeeEntity;
@@ -68,6 +72,10 @@ public class LibeerianEntity extends AppleBeeEntity {
             } else if (this.attackTimer > 0) {
                 --this.attackTimer;
             }
+        }
+
+        public static AttributeModifierMap.MutableAttribute createAttributes() {
+            return MobEntity.func_233666_p_().createMutableAttribute(Attributes.MAX_HEALTH, 16.0D).createMutableAttribute(Attributes.FLYING_SPEED, 0.6).createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3).createMutableAttribute(Attributes.ATTACK_DAMAGE, 4.0D).createMutableAttribute(Attributes.FOLLOW_RANGE, 128.0D).createMutableAttribute(Attributes.ARMOR, 0).createMutableAttribute(Attributes.ARMOR_TOUGHNESS, 0);
         }
     }
 }

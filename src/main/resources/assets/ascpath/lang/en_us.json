@@ -19,5 +19,15 @@
   "block.ascpath.prism_fluid" : "Pollinator Prism (Fluid)",
   "block.ascpath.prism_light" : "Pollinator Prism (Light)",
   "block.ascpath.prism_metal" : "Pollinator Prism (Metal)",
-  "block.ascpath.prism_wood" : "Pollinator Prism (Wood)"
+  "block.ascpath.prism_wood" : "Pollinator Prism (Wood)",
+
+  "entity.resourcefulbees.bloom_bee" : "Bloom Bee",
+  "entity.resourcefulbees.crystal_bee" : "Crystal Bee",
+  "entity.resourcefulbees.dust_bee" : "Dust Bee",
+  "entity.resourcefulbees.earth_bee" : "Earth Bee",
+  "entity.resourcefulbees.flesh_bee" : "Flesh Bee",
+  "entity.resourcefulbees.fluid_bee" : "Fluid Bee",
+  "entity.resourcefulbees.light_bee" : "Light Bee",
+  "entity.resourcefulbees.metal_bee" : "Metal Bee",
+  "entity.resourcefulbees.wood_bee" : "Wood Bee"
 }

@@ -1,6 +1,7 @@
 package com.aranaira.ascpath.core.block;
 
 import com.aranaira.ascpath.AscensionPathfinder;
+import com.aranaira.ascpath.core.block.properties.DefaultProperties;
 import com.aranaira.ascpath.core.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -14,6 +15,9 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AscensionPathfinder.MODID);
+
+    public static final RegistryObject<Block> HONEY_LADEN_BOOKSHELF = registerBlock("honey_laden_bookshelf",
+            () -> new BlockStandard(DefaultProperties.honeyLadenBookshelf()));
 
     public static final RegistryObject<Block> PRISM_FLESH = registerBlock("prism_flesh",
             () -> new BlockPollinatorPrism());

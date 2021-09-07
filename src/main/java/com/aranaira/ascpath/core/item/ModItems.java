@@ -2,6 +2,7 @@ package com.aranaira.ascpath.core.item;
 
 import com.aranaira.ascpath.AscensionPathfinder;
 import net.minecraft.item.Item;
+import net.minecraft.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,6 +14,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> KNOWLEDGE_FRAGMENT = ITEMS.register("knowledge_fragment",
             () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));
+
+    public static final RegistryObject<ParsevailInkItem> PARSEVAIL_INK = ITEMS.register("parsevail_ink",
+            () -> new ParsevailInkItem(new ParsevailInkItem.Properties().group(AscensionPathfinder.ITEMGROUP).rarity(Rarity.RARE).maxStackSize(1)));
 
     public static final RegistryObject<Item> ESSENCE_FLESH = ITEMS.register("essence_flesh",
             () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));

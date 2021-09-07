@@ -20,4 +20,12 @@ public class DefaultProperties {
                     }
                 });
     }
+
+    public static Block.Properties honeyLadenBookshelf() {
+        return Block.Properties.create(Material.WOOD)
+                .hardnessAndResistance(2.5F, 7F)
+                .harvestLevel(0)
+                .sound(SoundType.WOOD)
+                ;
+    }
 }

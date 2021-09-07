@@ -1,5 +1,6 @@
 {
   "item.ascpath.knowledge_fragment" : "Fragment of Ancient Knowledge",
+  "item.ascpath.parsevail_ink" : "Parsevail Ink",
 
   "item.ascpath.essence_bloom" : "Bloom Essence",
   "item.ascpath.essence_crystal" : "Crystal Essence",
@@ -10,6 +11,8 @@
   "item.ascpath.essence_light" : "Light Essence",
   "item.ascpath.essence_metal" : "Metal Essence",
   "item.ascpath.essence_wood" : "Wood Essence",
+
+  "block.ascpath.honey_laden_bookshelf" : "Honey-Laden Bookshelf",
 
   "block.ascpath.prism_bloom" : "Pollinator Prism (Bloom)",
   "block.ascpath.prism_crystal" : "Pollinator Prism (Crystal)",
@@ -29,5 +32,7 @@
   "entity.resourcefulbees.fluid_bee" : "Fluid Bee",
   "entity.resourcefulbees.light_bee" : "Light Bee",
   "entity.resourcefulbees.metal_bee" : "Metal Bee",
-  "entity.resourcefulbees.wood_bee" : "Wood Bee"
+  "entity.resourcefulbees.wood_bee" : "Wood Bee",
+
+  "lore.parsevail_ink" : "§oWords scribed with the proper ink persist beyond the destruction of the page."
 }

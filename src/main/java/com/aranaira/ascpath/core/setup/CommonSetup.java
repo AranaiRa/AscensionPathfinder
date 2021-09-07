@@ -24,7 +24,8 @@ public class CommonSetup {
 
     @SubscribeEvent
     public static void onAttribute(EntityAttributeCreationEvent event) {
-        AttributeModifierMap.MutableAttribute attr = LibeerianEntity.createAttributes();
-        event.put(ModEntities.LIBEERIAN.get(), attr.create());
+        //AttributeModifierMap.MutableAttribute attr = AppleBeeEntity.createAttributes();
+        //AscensionPathfinder.LOG.info("&&&&&&& is attr null? "+(attr == null));
+        //event.put(ModEntities.LIBEERIAN.get(), attr.create());
     }
 }

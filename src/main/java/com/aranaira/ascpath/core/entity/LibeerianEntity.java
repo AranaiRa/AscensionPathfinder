@@ -75,7 +75,15 @@ public class LibeerianEntity extends AppleBeeEntity {
         }
 
         public static AttributeModifierMap.MutableAttribute createAttributes() {
-            return MobEntity.func_233666_p_().createMutableAttribute(Attributes.MAX_HEALTH, 16.0D).createMutableAttribute(Attributes.FLYING_SPEED, 0.6).createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3).createMutableAttribute(Attributes.ATTACK_DAMAGE, 4.0D).createMutableAttribute(Attributes.FOLLOW_RANGE, 128.0D).createMutableAttribute(Attributes.ARMOR, 0).createMutableAttribute(Attributes.ARMOR_TOUGHNESS, 0);
+            return MobEntity.func_233666_p_()
+                    .createMutableAttribute(Attributes.MAX_HEALTH, 16.0D)
+                    .createMutableAttribute(Attributes.FLYING_SPEED, 0.6)
+                    .createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3)
+                    .createMutableAttribute(Attributes.ATTACK_DAMAGE, 4.0D)
+                    .createMutableAttribute(Attributes.FOLLOW_RANGE, 128.0D)
+                    .createMutableAttribute(Attributes.ARMOR, 0)
+                    .createMutableAttribute(Attributes.ARMOR_TOUGHNESS, 0)
+                    ;
         }
     }
 }

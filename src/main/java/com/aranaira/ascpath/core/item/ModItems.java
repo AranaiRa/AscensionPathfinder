@@ -16,7 +16,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));
 
     public static final RegistryObject<ParsevailInkItem> PARSEVAIL_INK = ITEMS.register("parsevail_ink",
-            () -> new ParsevailInkItem(new ParsevailInkItem.Properties().group(AscensionPathfinder.ITEMGROUP).rarity(Rarity.RARE).maxStackSize(1)));
+            () -> new ParsevailInkItem(new Item.Properties().group(AscensionPathfinder.ITEMGROUP).rarity(Rarity.RARE).maxStackSize(1)));
 
     public static final RegistryObject<Item> ESSENCE_FLESH = ITEMS.register("essence_flesh",
             () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));

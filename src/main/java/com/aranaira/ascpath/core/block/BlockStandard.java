@@ -9,7 +9,7 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 
-public class BlockStandard extends Block implements IWaterLoggable {
+public class BlockStandard extends Block {
     public BlockStandard(Properties properties) {
         super(properties);
     }

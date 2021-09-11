@@ -30,7 +30,7 @@ public class AscensionPathfinder {
   public static final String MODID = "ascpath";
   public static final String VERSION = "GRADLE:VERSION";
 
-  public static ItemGroup ITEMGROUP = ItemGroup.BREWING;
+  public static ItemGroup ITEMGROUP = ItemGroup.MISC;
 
   public AscensionPathfinder() {
     IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

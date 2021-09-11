@@ -1,6 +1,10 @@
 {
   "item.ascpath.knowledge_fragment" : "Fragment of Ancient Knowledge",
   "item.ascpath.parsevail_ink" : "Parsevail Ink",
+  "item.ascpath.powdered_livingrock" : "Powdered Livingrock",
+  "item.ascpath.residuum" : "Residuum",
+  "item.ascpath.residuum_bag" : "Pouch of Residuum",
+  "item.ascpath.rune_scrapping" : "Rune of Scrapping",
 
   "item.ascpath.essence_bloom" : "Bloom Essence",
   "item.ascpath.essence_crystal" : "Crystal Essence",

@@ -15,6 +15,18 @@ public class ModItems {
     public static final RegistryObject<Item> KNOWLEDGE_FRAGMENT = ITEMS.register("knowledge_fragment",
             () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));
 
+    public static final RegistryObject<Item> RUNE_OF_SCRAPPING = ITEMS.register("rune_scrapping",
+            () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));
+
+    public static final RegistryObject<Item> POWDERED_LIVINGROCK = ITEMS.register("powdered_livingrock",
+            () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));
+
+    public static final RegistryObject<Item> RESIDUUM = ITEMS.register("residuum",
+            () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));
+
+    public static final RegistryObject<Item> RESIDUUM_BAG = ITEMS.register("residuum_bag",
+            () -> new Item(new Item.Properties().group(AscensionPathfinder.ITEMGROUP)));
+
     public static final RegistryObject<ParsevailInkItem> PARSEVAIL_INK = ITEMS.register("parsevail_ink",
             () -> new ParsevailInkItem(new Item.Properties().group(AscensionPathfinder.ITEMGROUP).rarity(Rarity.RARE).maxStackSize(1)));
 

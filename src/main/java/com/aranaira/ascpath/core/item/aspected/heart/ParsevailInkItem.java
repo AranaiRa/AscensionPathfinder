@@ -1,4 +1,4 @@
-package com.aranaira.ascpath.core.item;
+package com.aranaira.ascpath.core.item.aspected.heart;
 
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;

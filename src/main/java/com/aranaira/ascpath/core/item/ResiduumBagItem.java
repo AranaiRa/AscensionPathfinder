@@ -22,10 +22,12 @@ public class ResiduumBagItem extends Item {
         ItemStack stack = player.getHeldItem(hand);
         if(hand == Hand.MAIN_HAND && !world.isRemote) {
             stack.setCount(stack.getCount() - 1);
+            ItemStack rune = new ItemStack(ModItems.RUNE_OF_SCRAPPING.get(), 1);
             ItemStack leather = new ItemStack(Items.LEATHER, 1);
             ItemStack residuum = new ItemStack(ModItems.RESIDUUM.get(), 1);
             ItemStack livingrock = new ItemStack(ModItems.POWDERED_LIVINGROCK.get(), 1);
 
+            world.addEntity(new ItemEntity(world, player.getPosX(), player.getPosY(), player.getPosZ(), rune));
             world.addEntity(new ItemEntity(world, player.getPosX(), player.getPosY(), player.getPosZ(), leather));
             world.addEntity(new ItemEntity(world, player.getPosX(), player.getPosY(), player.getPosZ(), residuum));
             world.addEntity(new ItemEntity(world, player.getPosX(), player.getPosY(), player.getPosZ(), livingrock));

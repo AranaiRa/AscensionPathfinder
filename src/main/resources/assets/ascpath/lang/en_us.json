@@ -1,10 +1,14 @@
 {
   "item.ascpath.knowledge_fragment" : "Fragment of Ancient Knowledge",
-  "item.ascpath.parsevail_ink" : "Parsevail Ink",
   "item.ascpath.powdered_livingrock" : "Powdered Livingrock",
   "item.ascpath.residuum" : "Residuum",
   "item.ascpath.residuum_bag" : "Pouch of Residuum",
   "item.ascpath.rune_scrapping" : "Rune of Scrapping",
+
+  "item.ascpath.parsevail_ink" : "Parsevail Ink",
+
+  "item.ascpath.latchkey" : "Latchkey",
+  "item.ascpath.sanguine_latchkey" : "Sanguine Latchkey",
 
   "item.ascpath.essence_bloom" : "Bloom Essence",
   "item.ascpath.essence_crystal" : "Crystal Essence",
@@ -38,5 +42,8 @@
   "entity.resourcefulbees.metal_bee" : "Metal Bee",
   "entity.resourcefulbees.wood_bee" : "Wood Bee",
 
-  "lore.parsevail_ink" : "§oWords scribed with the proper ink persist beyond the destruction of the page."
+  "lore.parsevail_ink" : "§oWords scribed with the proper ink persist beyond the destruction of the page.",
+
+  "lore.latchkey" : "§oIt once knew the way to distant realms, but its memory is hazy. Perhaps with proper motivation, it could remember once again.",
+  "lore.sanguine_latchkey" : "§oTBD"
 }
